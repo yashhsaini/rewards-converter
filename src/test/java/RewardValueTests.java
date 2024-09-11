@@ -31,6 +31,6 @@ public class RewardValueTests {
         int milesValue = 10000;
         var rewardValue = new RewardValue(milesValue);
         double expectedCash = milesValue * 0.0035;
-        assertEquals(expectedCash, rewardValue.getCashValue(), 0.001);
+        assertEquals(expectedCash, rewardValue.getCashValue());
     }
 }
