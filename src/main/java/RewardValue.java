@@ -1,7 +1,7 @@
 public class RewardValue {
 
-    private final double cashValue;  // Attribute for cash value
-    private final double milesValue;  // Attribute for miles value
+    private double cashValue;  // Attribute for cash value
+    private double milesValue;  // Attribute for miles value
 
     // Constructor that accepts a cash value
     public RewardValue(double cashValue) {
